@@ -2,17 +2,17 @@
 
 [English](README.md)
 
-我为制造和企业运营团队开发业务应用、数据报表和流程自动化方案，把分散在 Excel、邮件和人工交接里的业务流程整理成可执行、可追踪的工作流。工作涵盖需求梳理、数据建模、应用开发、上线验证和用户培训。
+我为制造和企业运营团队开发业务系统、数据报表和自动化流程，把业务规则落实到可执行、可追踪的系统中。项目涵盖库存与成本控制、基于 SQL 的企业报表，以及 Microsoft Power Platform 上的跨系统流程。
 
 ## 代表案例
 
-- **[制造运营与 MRP](projects/mrp.md#中文)** · 上线仓储及财务流程改动，实现材料成本追溯及角色权限控制。
-- **[全球销售漏斗分析](projects/sales-pipeline.md#中文)** · 负责从 SQL 到 Power BI 的端到端交付，面向约 400 名用户。
-- **[员工离职流程自动化](projects/offboarding.md#中文)** · 重设计设备归还流程，串联 11 个部门的离职交接。
+| 案例 | 代表能力 |
+| --- | --- |
+| [制造运营与 MRP](projects/mrp.md#中文) | 库存控制与材料成本追溯 |
+| [全球销售漏斗分析](projects/sales-pipeline.md#中文) | 数据建模、经营报表与权限治理 |
+| [员工离职流程自动化](projects/offboarding.md#中文) | 流程重设计与跨系统自动化 |
 
 ## 项目目录
-
-面试官可通过案例了解我负责的工作、关键设计和交付证据。企业客户可按业务场景选读。我可以参与流程梳理与改进、Power Apps 和 Power Automate 落地、Power BI 报表交付，以及业务团队的实操培训。
 
 ### 制造运营
 
@@ -52,13 +52,11 @@
 | [AI 辅助材料初审](projects/document-review.md#中文) | 已构建方案 |
 | [AI 对话上下文节点图](projects/context-graph.md#中文) | 已构建原型 |
 
-### 交付与赋能
+### 服务交付与市场研究
 
 | 项目 | 阶段 |
 | --- | --- |
 | [跨地区服务移管上线](projects/service-transition.md#中文) | 已交付 |
-| [公民开发者推广](projects/citizen-development.md#中文) | 已交付 |
-| [企业 Power BI 与 Power Apps 培训](projects/training.md#中文) | 已授课 |
 | [制造业 Power Platform 服务市场研究](projects/market-research.md#中文) | 已建立研究框架 |
 
 企业和客户项目采用匿名摘要。数字按各案例注明的项目记录或估算呈现。
