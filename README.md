@@ -2,15 +2,18 @@
 
 [简体中文](README.zh-CN.md)
 
-I build business systems, analytics and automation for manufacturing and enterprise operations. My work connects process design with implementation, from inventory controls and SQL-backed reporting to cross-system workflows on Microsoft Power Platform.
+I build business systems, analytics and automation for manufacturing and enterprise operations. My work connects process design with implementation, from inventory controls and SQL-backed reporting to multi-system workflows on Microsoft Power Platform.
 
 ## Featured case studies
 
-| Case | Skills demonstrated |
+| Case | What the work demonstrates |
 | --- | --- |
-| [Manufacturing operations and MRP](projects/mrp.md) | Inventory control and material cost traceability |
-| [Global sales pipeline reporting](projects/sales-pipeline.md) | Data modeling, reporting and access governance |
-| [Employee offboarding automation](projects/offboarding.md) | Process redesign and cross-system automation |
+| [Manufacturing operations and MRP](projects/mrp.md) | Inventory and cost traceability in Express and MySQL. The cloud pilot covered 9 modules, 26 pages and 14 roles. |
+| [Global sales pipeline reporting](projects/sales-pipeline.md) | SQL, DAX and row-level security for reporting on 100,000+ pipeline records for an audience of roughly 400. |
+| [Employee offboarding automation](projects/offboarding.md) | Workflow redesign across 11 departments and 14 SAP interfaces. Equipment returns went from 6 steps to 3. |
+| [Port call reporting automation](projects/port-call-automation.md) | Power Automate Desktop workflow for roughly a dozen sequential entry screens in ocean shipping operations. |
+| [Procurement project management and analytics](projects/procurement-savings.md) | Power Apps and Power BI for project dates, progress and savings analysis. One tracker export contained 333 data rows. |
+| [AI-assisted real estate compliance intake](projects/document-review.md) | Email intake and AI Builder for document completeness and compliance review. |
 
 ## Project directory
 
@@ -18,7 +21,9 @@ I build business systems, analytics and automation for manufacturing and enterpr
 
 | Project | Stage |
 | --- | --- |
-| [Manufacturing operations and MRP](projects/mrp.md) | Deployed |
+| [Manufacturing operations and MRP](projects/mrp.md) | Cloud pilot and follow-up releases |
+| [Manufacturing jig management](projects/jig-management.md) | App packaged |
+| [Manufacturing request and approval design](projects/approval-design.md) | Requirements & design |
 
 ### Business applications
 
@@ -35,6 +40,7 @@ I build business systems, analytics and automation for manufacturing and enterpr
 | --- | --- |
 | [Global sales pipeline reporting](projects/sales-pipeline.md) | Delivered |
 | [Shared services reporting](projects/operations-bi.md) | Delivered |
+| [Procurement project management and analytics](projects/procurement-savings.md) | App and dashboard built |
 
 ### Automation
 
@@ -43,13 +49,16 @@ I build business systems, analytics and automation for manufacturing and enterpr
 | [Employee offboarding automation](projects/offboarding.md) | Delivered |
 | [Payment compliance workflow improvement](projects/payment-controls.md) | Implemented |
 | [Retail order and inventory reporting automation](projects/order-reporting.md) | Delivered |
+| [Port call reporting automation](projects/port-call-automation.md) | Automation built |
+| [Hotel reservation entry automation](projects/hotel-reservations.md) | Automation built |
+| [Rental maintenance request workflow](projects/rental-maintenance.md) | Workflow design documented |
 
 ### AI
 
 | Project | Stage |
 | --- | --- |
 | [Enterprise AI project coordination](projects/ai-coordination.md) | Project contribution |
-| [AI-assisted document intake review](projects/document-review.md) | Solution built |
+| [AI-assisted real estate compliance intake](projects/document-review.md) | Workflow built and documented |
 | [AI conversation context graph](projects/context-graph.md) | Prototype |
 
 ### Service delivery and market research
@@ -59,6 +68,6 @@ I build business systems, analytics and automation for manufacturing and enterpr
 | [Cross-market service transition](projects/service-transition.md) | Delivered |
 | [Manufacturing market discovery for Power Platform services](projects/market-research.md) | Research framework |
 
-Figures reflect project records or estimates as described in each case. Client and employer examples are presented as anonymized summaries.
+Client and employer cases are anonymized. Each case identifies the basis for its delivery figures and any estimated outcomes.
 
 [Contact via GitHub](https://github.com/eurekasheng)
