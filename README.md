@@ -2,17 +2,17 @@
 
 [简体中文](README.zh-CN.md)
 
-I build business applications, reporting and automation for teams that need to turn manual handoffs and fragmented data into workflows people can use. My work spans manufacturing operations, enterprise analytics and Microsoft Power Platform, from requirements and data design through rollout and user training.
+I build business systems, analytics and automation for manufacturing and enterprise operations. My work connects process design with implementation, from inventory controls and SQL-backed reporting to cross-system workflows on Microsoft Power Platform.
 
 ## Featured case studies
 
-- **[Manufacturing operations and MRP](projects/mrp.md)** · Released warehouse and finance workflow changes with traceable material costs and role-based controls.
-- **[Global sales pipeline reporting](projects/sales-pipeline.md)** · Owned SQL-to-Power BI delivery for an audience of roughly 400 users.
-- **[Employee offboarding automation](projects/offboarding.md)** · Redesigned equipment returns and connected an exit workflow across 11 departments.
+| Case | Skills demonstrated |
+| --- | --- |
+| [Manufacturing operations and MRP](projects/mrp.md) | Inventory control and material cost traceability |
+| [Global sales pipeline reporting](projects/sales-pipeline.md) | Data modeling, reporting and access governance |
+| [Employee offboarding automation](projects/offboarding.md) | Process redesign and cross-system automation |
 
-## Explore the work
-
-For interviews, the cases show my contribution, implementation choices and delivery evidence. For client engagements, start with the business process closest to yours. I work on workflow discovery and redesign, Power Apps and Power Automate implementation, Power BI delivery, and hands-on team training.
+## Project directory
 
 ### Manufacturing systems
 
@@ -52,13 +52,11 @@ For interviews, the cases show my contribution, implementation choices and deliv
 | [AI-assisted document intake review](projects/document-review.md) | Solution built |
 | [AI conversation context graph](projects/context-graph.md) | Prototype |
 
-### Delivery & enablement
+### Service delivery and market research
 
 | Project | Stage |
 | --- | --- |
 | [Cross-market service transition](projects/service-transition.md) | Delivered |
-| [Citizen developer enablement](projects/citizen-development.md) | Delivered |
-| [Enterprise Power BI and Power Apps training](projects/training.md) | Delivered |
 | [Manufacturing market discovery for Power Platform services](projects/market-research.md) | Research framework |
 
 Figures reflect project records or estimates as described in each case. Client and employer examples are presented as anonymized summaries.
