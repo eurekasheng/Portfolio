@@ -2,44 +2,52 @@
 
 [Portfolio](../README.md) · [中文](#中文)
 
-**Deployed** · Manufacturing systems
+**Cloud pilot and follow-up releases** · Manufacturing systems · Express, MySQL
 
-## Business context
+## Business problem
 
-Manufacturing teams needed purchasing, warehouse movements, device handoff and finance to agree on the same operational records.
+Sales, engineering, purchasing, warehouse and finance needed to trace a machine from quotation through shipment and payment. Finance also needed to explain its material cost using the inventory movements behind it.
 
 ## My contribution
 
-Implemented and released workflow changes in an Express and MySQL application. Added role checks, version checks, and all-or-nothing rejection of unauthorized inventory changes. Traced device material costs to actual inventory movements and original issue batches for returns.
+I implemented and released warehouse and finance workflow changes in the Express and MySQL application. The system checks the user's role and record version before applying inventory edits, and rejects the entire change if any part is unauthorized. Issued materials roll up to the machine's actual cost. Returns reverse the cost of the original issue batch so finance can reconcile the adjustment to its source.
 
 ```mermaid
-flowchart LR
-    A[Inventory receipt] --> B[Issue to device]
-    B --> C[Device material cost]
-    B --> D[Return to original batch]
-    D --> C
+flowchart TD
+    A["Quote and contract approval"] --> B["Device bill of materials"]
+    B --> C["Stock check and shortage list"]
+    C --> D["Purchase order and receipt"]
+    D --> E["Issue materials to device"]
+    E --> F["Production, inspection and shipment"]
+    F --> G["Record payment"]
+    E --> H["Device material cost"]
+    E --> I["Return to original issue batch"]
+    I --> H
 ```
 
-## Delivery and results
+## Delivery and evidence
 
-Release records document 79 passing automated checks for the second finance release and post-deploy health and access checks. Cost and return scenarios were exercised with isolated test data.
+| Measure | Evidence |
+| --- | --- |
+| **9 modules, 26 pages, 14 role types** | Scope of the August 2026 cloud pilot. The pilot report describes sample data and a planned migration to live business data. |
+| **14 supported quotation currencies** | Pilot scope for domestic and export sales. |
+| **79 passing automated checks** | Second finance release record. Post-deployment checks covered service health and access controls. Cost and return scenarios were exercised with isolated test data. |
+
+The cost trail gives warehouse and finance a common record for investigating stock movements, returns and cost adjustments. Live transaction volume and reconciliation time savings are still unverified.
 
 ## 中文
 
 ### 制造运营与 MRP
 
-**已上线**
+**云端试运行及后续版本发布** · 制造运营 · Express、MySQL
 
-**业务背景**
+**业务问题**  
+销售、设计、采购、仓库与财务需要共同追踪设备从报价到发货、收款的过程，财务还需要能把设备材料成本追溯到具体的库存变动。
 
-制造团队需要让采购、仓库出入库、设备交接和财务使用一致的业务记录。
+**我的贡献**  
+我在 Express 和 MySQL 应用中实现并发布仓库及财务流程改动。写入前检查岗位权限与记录版本，任何一项库存变更越权时整批拒绝。设备材料成本按实际领料核算，退料冲回原领料批次的成本，财务可据此核对差异。
 
-**我的贡献**
-
-基于 Express 和 MySQL 实现并发布业务流程改动，加入角色权限、版本检查和越权库存变更整批拒绝。设备材料成本追溯到实际出入库，退料按原出库批次冲回。
-
-**交付与结果**
-
-第二轮财务版本的发布记录显示 79 项自动化检查通过，上线后核验了服务健康和访问控制。成本和退料场景用隔离测试数据进行了验证。
+**交付证据**  
+2026 年 8 月云端试运行覆盖 **9 个模块、26 个页面、14 类岗位角色**，内销与外销报价支持 **14 种币种**。当时使用演示数据，正式业务数据待迁移。第二轮财务版本的发布记录显示 **79 项自动化检查通过**，上线后核验了服务健康和访问权限，并用隔离测试数据验证成本与退料场景。实际交易量和对账耗时改善待核实。
 
 [返回中文目录](../README.zh-CN.md)
