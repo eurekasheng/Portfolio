@@ -2,7 +2,7 @@
 
 [简体中文](README.zh-CN.md)
 
-I build business systems, analytics and automation for manufacturing and enterprise operations. My work connects process design with implementation, from inventory controls and SQL-backed reporting to multi-system workflows on Microsoft Power Platform.
+I’m a senior Power Platform consultant with 10 years of experience across enterprise operations, business analysis, automation, and analytics. I take solutions from process discovery and design through development, user acceptance testing, rollout, and support. My work spans Power Apps, Power Automate, Power BI, Copilot Studio, and custom web development, with experience in manufacturing and semiconductor operations.
 
 ## Featured case studies
 
